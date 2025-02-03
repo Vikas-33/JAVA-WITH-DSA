@@ -1,6 +1,6 @@
 package Javaoneshot;
 
-public class Operaters {
+public class Operators {
     public static void main(String[] args) {
         //ops
         int a=7;
