@@ -27,3 +27,41 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Java compiled files
+/out/
+*.class
+*.jar
+*.war
+*.ear
+
+# Build directories
+/build/
+target/
+
+# Package managers
+.gradle/
+.mvn/
+**/node_modules/
+
+# Logs and temp files
+*.log
+hs_err_pid*
+*.swp
+*.bak
+*.tmp
+*.~
+
+# OS-specific files
+
+Thumbs.db
+
+# Environment and secret files
+.env
