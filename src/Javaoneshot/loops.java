@@ -55,6 +55,13 @@ public class loops {
         }
 
 
+        //advanced for loop
+        int[] numbers={87,98,66,22,35,66};
+        for(int nums:numbers){
+            System.out.println( nums);
+        }
+
+
 
     }
 }
