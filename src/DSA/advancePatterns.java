@@ -88,6 +88,20 @@ public class advancePatterns {
 
 
 
+        //
+        for(i=0;i<rows;i++){
+            for(j=0;j<rows-i;j++){
+                System.out.print(" ");
+            }
+            for(j=i;j>=1;j--){
+                System.out.print(j);
+            }
+            for(j=2;j<=i;j++){
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+
 
 
     }
