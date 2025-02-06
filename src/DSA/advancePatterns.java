@@ -10,6 +10,7 @@ public class advancePatterns {
         int rows=sc.nextInt();
 
 
+//        butterfly pattern
         for (  i = 0; i <(rows/2) ; i++) {
             for (  j = 0; j < rows ; j++) {
                 if (j==0||j==rows-1||i==rows/2) {
@@ -46,6 +47,46 @@ public class advancePatterns {
             }
             System.out.println();
         }
+
+
+
+
+
+
+        for(i=0;i<=rows;i++){
+            for(j=0;j<=((2*rows)-i);j++){
+                if((i+j)<=(rows-1)){
+                    System.out.print("  ");
+
+                }
+                else{
+                    System.out.print("* ");
+                }
+            }
+            System.out.println();
+        }
+
+
+
+
+
+        for (i=0;i<rows;i++){
+            for(j=0;j<(rows+i);j++){
+                if((i+j+1)>=(rows-1)&&(i+j)%2==0){
+                    System.out.print("*");
+                }
+                else{
+                    System.out.print(" ");
+                }
+
+            }
+            System.out.println();
+        }
+
+
+
+
+
 
 
 
