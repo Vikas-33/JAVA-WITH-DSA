@@ -11,93 +11,109 @@ public class advancePatterns {
 
 
 //        butterfly pattern
-        for (  i = 0; i <(rows/2) ; i++) {
-            for (  j = 0; j < rows ; j++) {
-                if (j==0||j==rows-1||i==rows/2) {
-                    System.out.print("* ");
-
-                } else if ((i+j)<=(i+i) || (i+j)>=rows-1) {
-                    System.out.print("* ");
-
-
-
-                }
-                else {
-                    System.out.print("  ");
-                }
-
-            }
-            System.out.println();
-
-        }
-        for(i=(rows/2);i<rows;i++){
-            for(j=0;j<=rows-1;j++){
-                if(i==rows/2){
-                    System.out.print("* ");
-
-                } else if ((i+j)<rows) {
-                    System.out.print("* ");
-
-                } else if ((i+j)>=(i+i)) {
-                    System.out.print("* ");
-
-                } else{
-                    System.out.print("  ");
-                }
-            }
-            System.out.println();
-        }
-
-
-
-
-
-
-        for(i=0;i<=rows;i++){
-            for(j=0;j<=((2*rows)-i);j++){
-                if((i+j)<=(rows-1)){
-                    System.out.print("  ");
-
-                }
-                else{
-                    System.out.print("* ");
-                }
-            }
-            System.out.println();
-        }
-
-
-
-
-
-        for (i=0;i<rows;i++){
-            for(j=0;j<(rows+i);j++){
-                if((i+j+1)>=(rows-1)&&(i+j)%2==0){
-                    System.out.print("*");
-                }
-                else{
-                    System.out.print(" ");
-                }
-
-            }
-            System.out.println();
-        }
-
-
+//        for (  i = 0; i <(rows/2) ; i++) {
+//            for (  j = 0; j < rows ; j++) {
+//                if (j==0||j==rows-1||i==rows/2) {
+//                    System.out.print("* ");
+//
+//                } else if ((i+j)<=(i+i) || (i+j)>=rows-1) {
+//                    System.out.print("* ");
+//
+//
+//
+//                }
+//                else {
+//                    System.out.print("  ");
+//                }
+//
+//            }
+//            System.out.println();
+//
+//        }
+//        for(i=(rows/2);i<rows;i++){
+//            for(j=0;j<=rows-1;j++){
+//                if(i==rows/2){
+//                    System.out.print("* ");
+//
+//                } else if ((i+j)<rows) {
+//                    System.out.print("* ");
+//
+//                } else if ((i+j)>=(i+i)) {
+//                    System.out.print("* ");
+//
+//                } else{
+//                    System.out.print("  ");
+//                }
+//            }
+//            System.out.println();
+//        }
+//
+//
+//
+//
+//
+//
+//        for(i=0;i<=rows;i++){
+//            for(j=0;j<=((2*rows)-i);j++){
+//                if((i+j)<=(rows-1)){
+//                    System.out.print("  ");
+//
+//                }
+//                else{
+//                    System.out.print("* ");
+//                }
+//            }
+//            System.out.println();
+//        }
+//
+//
+//
+//
+//
+//        for (i=0;i<rows;i++){
+//            for(j=0;j<(rows+i);j++){
+//                if((i+j+1)>=(rows-1)&&(i+j)%2==0){
+//                    System.out.print("*");
+//                }
+//                else{
+//                    System.out.print(" ");
+//                }
+//
+//            }
+//            System.out.println();
+//        }
+//
+//
+//
+//
+//
+//
+//        //
+//        for(i=0;i<rows;i++){
+//            for(j=0;j<rows-i;j++){
+//                System.out.print(" ");
+//            }
+//            for(j=i;j>=1;j--){
+//                System.out.print(j);
+//            }
+//            for(j=2;j<=i;j++){
+//                System.out.print(j);
+//            }
+//            System.out.println();
+//        }
 
 
 
 
         //
         for(i=0;i<rows;i++){
-            for(j=0;j<rows-i;j++){
-                System.out.print(" ");
+            for(j=i;j<rows-1;j++){
+                System.out.print("_");
             }
-            for(j=i;j>=1;j--){
-                System.out.print(j);
-            }
-            for(j=2;j<=i;j++){
-                System.out.print(j);
+
+            for(k=0;k<((2*i)+1) ;k++){
+                System.out.print("*");
+
             }
             System.out.println();
         }
