@@ -1,6 +1,4 @@
-package Javaoneshot;
-
-import org.w3c.dom.ls.LSOutput;
+package JAVA;
 
 public class string {
     public static void main(String[] args) {

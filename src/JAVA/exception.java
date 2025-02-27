@@ -1,4 +1,4 @@
-package Javaoneshot;
+package JAVA;
 
 public class exception {
     public static void prnt() {

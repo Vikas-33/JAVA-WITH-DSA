@@ -1,6 +1,5 @@
-package Javaoneshot;
+package JAVA;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class miniProject {

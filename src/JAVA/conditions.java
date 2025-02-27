@@ -1,8 +1,8 @@
-package DSA;
+package JAVA;
 
 import java.util.Scanner;
 
-public class conditionalStatements {
+public class conditions {
     public static void main(String[] args) {
         boolean sunUp= false;
         if(sunUp==true)
@@ -32,7 +32,7 @@ public class conditionalStatements {
             System.out.println("It,s night");
 
 
-//        switch
+        //switch
         Scanner sc =new Scanner(System.in);
         System.out.println("enter a number ");
         int day=sc.nextInt();
@@ -62,29 +62,6 @@ public class conditionalStatements {
                 System.out.println("invalid number : ");
 
         }
-
-        //question
-        System.out.print("enter the cost prize : ");
-        int cp=sc.nextInt();
-        System.out.print("enter the selling prize : ");
-        int sp=sc.nextInt();
-
-        int dif=sp-cp;
-
-        if(dif<0) {
-            dif *= (-1);
-            System.out.println("the loss in selling is : " + dif);
-        } else if (dif==0) {
-            System.out.println("there no profit no loss");
-
-        }
-
-        else {
-            System.out.println("The profit in selling is : "+dif);
-        }
-
-
-
 
     }
 }
