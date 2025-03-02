@@ -1,9 +1,9 @@
 package JAVA;
-
 import java.util.Scanner;
 
-public class Loops2 {
+public class loops2 {
     public static void main(String[] args) {
+        //import java.util.Scanner;
 
 //       count digits in number
         Scanner sc =new Scanner(System.in);
@@ -28,9 +28,9 @@ public class Loops2 {
 
 
 //        sum of digits of a number
-        Scanner sc =new Scanner(System.in);
+//        Scanner sc =new Scanner(System.in);
         System.out.print("Enter the number: ");
-        int n=sc.nextInt();
+//        int n=sc.nextInt();
         int sum=0;
         while (n>0){
             sum+=n%10;
@@ -43,23 +43,15 @@ public class Loops2 {
 
 
 
-
-
 //        reverse a number
         System.out.print("Enter the number: ");
-        int n= sc.nextInt();
+        int x= sc.nextInt();
         int reversenumber;
-        while (n>0){
-            reversenumber=n%10;
-            n/=10;
+        while (x>0){
+            reversenumber=x%10;
+            x/=10;
             System.out.print(reversenumber);
         }
-
-
-
-
-
-
 
 
 
